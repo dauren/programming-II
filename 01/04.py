@@ -16,3 +16,4 @@ def morse_text_play(text):
 		morse_letter_play(item)
 
 morse_text_play(['.-', '.-..', '..', '-.--', '.-'])
+winsound.PlaySound('file.wav', winsound.SND_FILENAME)
