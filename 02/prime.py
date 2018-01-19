@@ -1,7 +1,7 @@
 import math
 def is_prime(x):
 	i = 2
-	while i < math.sqrt(x):
+	while i <= math.sqrt(x):
 		if x % i == 0:
 			return False
 		i = i + 1
