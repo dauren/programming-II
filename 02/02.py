@@ -1,6 +1,5 @@
-with open('a.txt', 'w') as file:
-	file.write('Salem')
-	file.write('World')
+with open('a.txt', 'a') as file:
+	file.write('KBTU')
 x = 1
 y = 1
 print(x + y)
