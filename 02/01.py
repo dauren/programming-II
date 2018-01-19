@@ -1,2 +1,7 @@
 file = open('a.txt', 'w')
-file.write('Hello')
+#w - write
+#r - read
+#a - append
+file.write('Salem\n')
+file.write('Alem')
+file.close()
