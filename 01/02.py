@@ -9,7 +9,6 @@ def read_morse_table():
 			key, value = l
 			alpha[key] = value
 	return alpha
-
 alpha = read_morse_table()
 alpha[' '] = '.......'
 alpha['.'] = '......'
@@ -20,6 +19,5 @@ def text_to_morse(text):
 		if letter in alpha: #if key exists
 			r.append(alpha[letter]) # get value by key
 	return r
-
 t = text_to_morse('Aliya')
 print(t)
