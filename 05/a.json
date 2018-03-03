@@ -1,0 +1,33 @@
+{
+	"id":"17BD110366",
+	"age": 22, 
+	"weight":55.5,
+	"first_name": "Azizhan",
+	"last_name": "Supieyv",
+	"address":{
+		"country": "Kazakhstan", 
+		"city": "Almaty",
+		"street":"Shevshenko", 
+		"intersection": ["Abay", "Auezov"]
+	},
+	"phones": [
+		{
+			"msisdn": "77777777777",
+			"type": "mobile"
+		},
+		{
+			"msisdn": "66666666666",
+			"type": "home"	
+		}
+		
+	],
+	"friends":[
+			{
+				"id": "16BDFSXX01",
+				"first_name": "Dauren", 
+				"address":{
+					"country":"Kazakhstan"
+				}
+			}
+	]
+}
