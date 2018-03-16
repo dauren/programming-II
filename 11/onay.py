@@ -1,4 +1,3 @@
-
 import requests
 def get_balance(card_no):
 	headers =  {
@@ -14,7 +13,3 @@ def get_balance(card_no):
 		balance = float(data['result']['data']['balance'])
 		return balance
 	return None
-
-
-b = get_balance('9643908503307746820')
-print(b)
