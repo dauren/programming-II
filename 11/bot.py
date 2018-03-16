@@ -8,6 +8,7 @@ dispatcher = updater.dispatcher
 
 def start_reply(bot, update):
 	text = get_balance('9643908503307746820')
+	print(update)
 	bot.send_message(chat_id=update.message.chat_id, text=text)
 
 from telegram.ext import CommandHandler
